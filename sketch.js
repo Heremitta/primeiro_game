@@ -1,7 +1,7 @@
-
+somTelaInicial.loop();
 
 function setup() {
-  somTelaInicial.loop();
+ 
   createCanvas(windowWidth, windowHeight);
   telaInicial = new TelaInicial();
   telaInicial.createBtn();
