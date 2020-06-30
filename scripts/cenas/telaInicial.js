@@ -5,7 +5,7 @@ class TelaInicial
   }
   setup(){
     somTelaInicial.loop();
-    pontuacao = new Pontuacao();
+   
   }
   draw(){
     this._imagemDeFundo();
