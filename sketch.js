@@ -4,7 +4,6 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   telaInicial = new TelaInicial();
   telaInicial.createBtn();
-  telaInicial.setup();
   jogo = new Jogo();
   frameRate(40);
   cenas = {
