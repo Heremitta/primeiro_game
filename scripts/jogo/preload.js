@@ -15,11 +15,11 @@ function preload(){
   imagemVida          = loadImage('imagens/assets/coracao.png');
   fontTelaInicial     = loadFont('imagens/assets/fonteTelaInicial.otf');
   somDoJogo           = createAudio('sons/trilha_jogo_top.mp3');
-  somDoJogo.volume(.5);
+  somDoJogo.volume(.3);
   somTelaInicial           = createAudio('sons/somTelaInicial.mp3');
-  somTelaInicial.volume(.5);
+  somTelaInicial.volume(.3);
   somGameOver           = createAudio('sons/gameOver.mp3');
-  somGameOver.volume(.5);
+  somGameOver.volume(.3);
 fita = loadJSON('fita/fita.json');
 }
   function getRndInteger(min, max) {
