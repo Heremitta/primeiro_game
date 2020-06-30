@@ -4,7 +4,6 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   telaInicial = new TelaInicial();
   telaInicial.createBtn();
-  somTelaInicial.loop();
   jogo = new Jogo();
   frameRate(40);
   cenas = {
@@ -12,6 +11,7 @@ function setup() {
     telaInicial
   };
   cenas[cenaAtual].setup();
+  somTelaInicial.loop();
 }
 
 var mapa = {}; // You could also use an array
