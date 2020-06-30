@@ -10,7 +10,6 @@ function setup() {
     jogo,
     telaInicial
   };
-  cenas[cenaAtual].setup();
   somTelaInicial.loop();
 }
 
