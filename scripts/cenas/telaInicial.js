@@ -4,7 +4,7 @@ class TelaInicial
     
   }
   setup(){
-    somTelaInicial.loop();
+    somTelaInicial.play();
    
   }
   draw(){
