@@ -1,4 +1,4 @@
-somTelaInicial.loop();
+
 
 function setup() {
  
@@ -11,6 +11,7 @@ function setup() {
     jogo,
     telaInicial
   };
+ somTelaInicial.loop();
 }
 
 var mapa = {}; // You could also use an array
